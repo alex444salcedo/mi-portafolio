@@ -1,0 +1,70 @@
+.plant-app {
+  background-color: #f0f4f0; /* Verde muy clarito */
+  min-height: 100vh;
+  padding-bottom: 3rem;
+  color: #2d3436;
+}
+
+.plant-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  align-items: center;
+}
+
+.app-logo {
+  font-weight: 700;
+  color: #27ae60;
+  font-size: 1.2rem;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.section-card {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.plant-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.plant-icon { font-size: 1.8rem; }
+
+.reminders-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reminders-list li {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+
+.post-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-actions {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: #666;
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,86 @@
+.admin-page {
+  background-color: #f4f7f6;
+  min-height: 100vh;
+  padding: 2rem 0;
+  color: #333;
+}
+
+.admin-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.badge-uta {
+  background: #004a2f; /* Color institucional verde UTA */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.admin-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.search-box input {
+  background: transparent;
+  border: none;
+  margin-left: 0.5rem;
+  width: 100%;
+  outline: none;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.admin-table th {
+  text-align: left;
+  background: #f8f9fa;
+  padding: 1rem;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.admin-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Colores para los estados */
+.status-pill {
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.status-pill.finalizado { background: #d4edda; color: #155724; }
+.status-pill.en-proceso { background: #fff3cd; color: #856404; }
+.status-pill.pendiente { background: #f8d7da; color: #721c24; }
+.status-pill.asignado { background: #d1ecf1; color: #0c5460; }
+
+.font-bold { font-weight: 600; }
